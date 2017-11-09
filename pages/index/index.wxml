@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+<input placeholder="请输入快递单号" class='input' bindinput='inputclick' value="{{expressNum}}"/>
+<button type='primary' bindtap='btnclick'>查询</button>
+   <view >
+      手机号：{{expressInfo.Data.dt[0].phonenumber}}
+      站点  ：{{expressInfo.Data.dt[0].stationaccount}}
+      单号  ：{{expressInfo.Data.dt[0].expressno}}
+   </view>
+</view>
