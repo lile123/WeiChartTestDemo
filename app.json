@@ -5,8 +5,8 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "快递查询",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "blue",
+    "navigationBarTitleText": "随意",
+    "navigationBarTextStyle":"#fff"
   }
 }
